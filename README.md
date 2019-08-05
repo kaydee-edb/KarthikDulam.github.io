@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+karthikdulam.com
+================================================================================
 
-You can use the [editor on GitHub](https://github.com/KarthikDulam/KarthikDulam.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Source code for my personal website. MIT Licensed. Contains a copy of my resume, 
+as well as some links to Github. :octocat:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Forking Note
 
-### Markdown
+If you fork this repo, please change the **form action** to an email address you own before trying it out. [Thaaaanks!]
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+<form action="https://formspree.io/your-email@here.com" method="POST" class="form-horizontal" role="form">
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Built using:
+--------------------------------------------------------------------------------
+[HTML5](https://developers.google.com/web/)  
+[Bootstrap](http://getbootstrap.com/) for CSS  
+[jQuery](https://jquery.com/) for JS  
+[namecheap](https://www.namecheap.com/) for the awesome domain  
+[GitHub Pages](https://pages.github.com/) for hosting  
+[CloudFlare](https://www.cloudflare.com/) for the SSL cert and fancy green lock :lock:  
+[git](https://git-scm.com/) for source control
 
-### Jekyll Themes
+Based on the
+[Creative Bootstrap theme](http://startbootstrap.com/template-overviews/creative/)
+from [Start Bootstrap](http://startbootstrap.com/).
+The theme is also MIT Licensed.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KarthikDulam/KarthikDulam.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+##### NOTE:
+
+Built using code and materials from the below repo
+[https://jasond94.github.io](https://jasond94.github.io)
+
+Thank you Jason:)
