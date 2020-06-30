@@ -8,8 +8,8 @@ Some information about you!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Deduce actionable insights from Data, explore and retrieve data from various sources and uncover new patterns of statistical significance. Yes, that's pretty much it!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[karthikdulam@gmail.com](mailto:karthikdulam@gmail.com)
