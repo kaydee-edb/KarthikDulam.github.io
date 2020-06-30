@@ -6,7 +6,7 @@ as well as some links to Github. :octocat:
 
 ## Forking Note
 
-If you fork this repo, please change the **form action** to an email address you own before trying it out. [Thaaaanks!]
+If you fork this repo, please change the **form action** to an email address you own before trying it out. [Thanks!]
 
 ```
 <form action="https://formspree.io/your-email@here.com" method="POST" class="form-horizontal" role="form">
@@ -27,11 +27,3 @@ Based on the
 from [Start Bootstrap](http://startbootstrap.com/).
 The theme is also MIT Licensed.
 
-
-
-##### NOTE:
-
-Built using code and materials from the below repo
-[https://jasond94.github.io](https://jasond94.github.io)
-
-Thank you Jason:)
