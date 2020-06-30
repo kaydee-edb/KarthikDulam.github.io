@@ -41,25 +41,23 @@ Once all the above required software have been installed and system path updated
 Naviagate to the local git folder on your system.
 2. Clone the xgboost library and Install the GPU version to the system
 >git clone — recursive https://github.com/dmlc/xgboost
-cd xgboost
-git submodule init
-git submodule update
+>cd xgboost
+>git submodule init
+>git submodule update
 3. Close out of the Git bash and open a windows command prompt in Admin mode. Navigate to the xgboost directory created above and run the below commands
-mkdir build
-cd build
-Run the below command to build the Visual studio solution. Update the parameter after -G to point to your version of visual studio and update the value of the -DLIBR_EXECUTABLE based on the location of the R.exe on your system
-cmake .. -G”Visual Studio 15 2017 Win64" -DUSE_CUDA=ON -DLIBR_EXECUTABLE=”C:/Users/kdulam/OneDrive/Documents/R/R-3.6.0/bin/R.exe” -DR_LIB=ON -DGPU_COMPUTE_VER=75
+>mkdir build
+>cd build
+4. Run the below command to build the Visual studio solution. Update the parameter after -G to point to your version of visual studio and update the value of the -DLIBR_EXECUTABLE based on the location of the R.exe on your system
+>cmake .. -G”Visual Studio 15 2017 Win64" -DUSE_CUDA=ON -DLIBR_EXECUTABLE=”C:/Users/kdulam/OneDrive/Documents/R/R-3.6.0/bin/R.exe” -DR_LIB=ON -DGPU_COMPUTE_VER=75
 Change the parameter DGPU_compute_ver based on the GPU that your device hosts. My device has RTX2080 which has a computer version of 7.5.
 Verify that the job is completed sucessfully. You will see the below msgs on your console
-— Configuring done
-— Generating done
-— Build files have been written to: C:/Users/kdulam/OneDrive/Documents/MachineLearning/xgboost/build
-Once the above job is successful, run the below install statement
-cmake — build . — target install — config Release
-It will take a while for the install job to be completed. If it is successful then it will write the installed Xgboost package to the library folder in the R installation folder. Generally, its added to C:\Program Files\R\R-3.6.0\library
-Now that you see the package in the folder successfully, pat yourself on the back for a job well done. Lets try and run a demo program from the xgboost package with GPU acceleration.
-you can find the demo file at the location where you cloned the Xgboost from github on your system.
-Navigate to C:\your xgboost location\build\R-package\demo\gpu_accelerated.R
+>— Configuring done
+>— Generating done
+>— Build files have been written to: C:/Users/kdulam/OneDrive/Documents/MachineLearning/xgboost/build
+5. Once the above job is successful, run the below install statement
+>cmake — build . — target install — config Release
+6. It will take a while for the install job to be completed. If it is successful then it will write the installed Xgboost package to the library folder in the R installation folder. Generally, its added to C:\Program Files\R\R-3.6.0\library.Now that you see the package in the folder successfully, pat yourself on the back for a job well done. Lets try and run a demo program from the xgboost package with GPU acceleration.You can find the demo file at the location where you cloned the Xgboost from github on your system.
+7. Navigate to C:\your xgboost location\build\R-package\demo\gpu_accelerated.R
 If you are unable to find it, don’t stress about it. Here is the github link to the demo file — https://github.com/dmlc/xgboost/blob/master/R-package/demo/gpu_accelerated.R
 Run the above file in your R studio and if the job runs sucessfully then congratulations, you have successfully installed the GPU version of XGBoost.
 
