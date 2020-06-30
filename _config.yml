@@ -1,2 +1,4 @@
 theme: jekyll-theme-minimal
 permalink: /blog/:year/:month/:day/:title
+name: Karthik Dulam, Data Scientist
+markdown: kramdown
