@@ -49,8 +49,7 @@ Naviagate to the local git folder on your system.
 >cd build
 4. Run the below command to build the Visual studio solution. Update the parameter after -G to point to your version of visual studio and update the value of the -DLIBR_EXECUTABLE based on the location of the R.exe on your system
 >cmake .. -G”Visual Studio 15 2017 Win64" -DUSE_CUDA=ON -DLIBR_EXECUTABLE=”C:/Users/kdulam/OneDrive/Documents/R/R-3.6.0/bin/R.exe” -DR_LIB=ON -DGPU_COMPUTE_VER=75
-Change the parameter DGPU_compute_ver based on the GPU that your device hosts. My device has RTX2080 which has a computer version of 7.5.
-Verify that the job is completed sucessfully. You will see the below msgs on your console
+5. Change the parameter DGPU_compute_ver based on the GPU that your device hosts. My device has RTX2080 which has a computer version of 7.5.Verify that the job is completed sucessfully. You will see the below msgs on your console:
 >— Configuring done
 >— Generating done
 >— Build files have been written to: C:/Users/kdulam/OneDrive/Documents/MachineLearning/xgboost/build
