@@ -40,7 +40,7 @@ Once all the above required software have been installed and system path updated
 1. Open Git Bash in Administrator mode
 Naviagate to the local git folder on your system.
 2. Clone the xgboost library and Install the GPU version to the system
-git clone — recursive https://github.com/dmlc/xgboost
+>git clone — recursive https://github.com/dmlc/xgboost
 cd xgboost
 git submodule init
 git submodule update
