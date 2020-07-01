@@ -62,6 +62,7 @@ Run the above file in your R studio and if the job runs sucessfully then congrat
 
 Here are the process times for the job above on my system:
 Xgboost with GPU:
+
 > proc.time() — pt
 user system elapsed
 8.21 1.61 5.69
@@ -70,4 +71,5 @@ Xgboost without GPU:
 > proc.time() — pt
 user system elapsed
 42.70 7.34 17.29
+
 Let me know if you had any other errors during installation process. Happy to help. I would like to mention that the installation process in the official xgboost documentation is very clear. The documentation also has install instructions for other operation systems.
