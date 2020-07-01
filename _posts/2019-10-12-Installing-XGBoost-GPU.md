@@ -27,15 +27,16 @@ https://cran.r-project.org/bin/windows/Rtools/
 
 You need to install Rtools version based on the version of your R installed above.
 Once we are done with the installations above, we are ready for actual XGBoost installation. But before we dig in, verify that the below parameters are added to your path variables in the environment variables.
-Add/verify that the below environment variables are added to the list of system variables on your device.
-Add/Verify R.exe to the path.
-Verify if CUDA_PATH_Vx_0 has been added to system variables. (x being the version you chose to install)
-Add C:\Rtools\bin to Path
-Add C:\Rtools\mingw_64\bin to Path
-Add C:\Program Files\CMake\bin to Path
-Add/Verify if C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin is added to path
-Add/Verify if C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\lib\x64 is added to path
-Add/Verify if C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include is added to path
+- Add/verify that the below environment variables are added to the list of system variables on your device.
+- Add/Verify R.exe to the path.
+- Verify if CUDA_PATH_Vx_0 has been added to system variables. (x being the version you chose to install)
+- Add C:\Rtools\bin to Path
+- Add C:\Rtools\mingw_64\bin to Path
+- Add C:\Program Files\CMake\bin to Path
+- Add/Verify if C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin is added to path
+- Add/Verify if C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\lib\x64 is added to path
+- Add/Verify if C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include is added to path
+
 Once all the above required software have been installed and system path updated then follow the below steps for actual installation:
 1. Open Git Bash in Administrator mode
 Naviagate to the local git folder on your system.
@@ -51,8 +52,11 @@ Naviagate to the local git folder on your system.
 >cmake .. -G”Visual Studio 15 2017 Win64" -DUSE_CUDA=ON -DLIBR_EXECUTABLE=”C:/Users/kdulam/OneDrive/Documents/R/R-3.6.0/bin/R.exe” -DR_LIB=ON -DGPU_COMPUTE_VER=75
 5. Change the parameter DGPU_compute_ver based on the GPU that your device hosts. My device has RTX2080 which has a computer version of 7.5.Verify that the job is completed sucessfully. You will see the below msgs on your console:
 >— Configuring done
+
 >— Generating done
+
 >— Build files have been written to: C:/Users/kdulam/OneDrive/Documents/MachineLearning/xgboost/build
+
 5. Once the above job is successful, run the below install statement
 >cmake — build . — target install — config Release
 6. It will take a while for the install job to be completed. If it is successful then it will write the installed Xgboost package to the library folder in the R installation folder. Generally, its added to C:\Program Files\R\R-3.6.0\library.Now that you see the package in the folder successfully, pat yourself on the back for a job well done. Lets try and run a demo program from the xgboost package with GPU acceleration.You can find the demo file at the location where you cloned the Xgboost from github on your system.
