@@ -1,11 +1,10 @@
 ---
 layout: post
-#title: "Kubernetes-Getting Started"
+title: "Kubernetes - Getting Started"
 date: 2020-06-30
 ---
 
-# Kubernetes - Getting Started
-
+# 
 This my repository for learnings related to Kubernetes. This post would include how to create a YAML definition files for kubernetes and also some basic commands which can be used to deploy the YAML and get the status on the pods.
 
 ###### YAML:
