@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The site is up!
+date: 2019-07-13
 ---
 
 First Post! 
