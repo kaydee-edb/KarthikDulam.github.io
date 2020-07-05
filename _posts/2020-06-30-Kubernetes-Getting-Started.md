@@ -26,21 +26,21 @@ Here is how a basic version of the yml file should look like -
 >
 >metadata:
 >
->​	name: gninx
+>​	  name: gninx
 >
->​	labels:
+>​	  labels:
 >
->​		name: gninx
+>​		    name: gninx
 >
->​		type: backend_app
+>​		    type: backend_app
 >
 >spec:
 >
->​	containers:
+>​	  containers:
 >
->​		-  name: gninx 
+>​        -   name: gninx 
 >
->​       image: gninx
+>​            image: gninx
 
 We will have to update the values of the parameters based on the container names which we plan to deploy. Also, as a rule of good practice there should only be one application container per Pod. 
 
