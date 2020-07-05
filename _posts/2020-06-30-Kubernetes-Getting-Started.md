@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Kubernetes - Getting Started"
+excerpt_separator: <!--more-->
 date: 2020-06-30
 ---
 
