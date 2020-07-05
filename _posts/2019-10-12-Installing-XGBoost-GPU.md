@@ -5,6 +5,8 @@ date: 2019-10-12
 ---
 
 For the last couple of days, i have been trying to install the XGBoost GPU for R on my windows 10 device. I faced numerous issues during the installation. Most of the issues i faced were because of the order in which i installed the required software. I had to painfully uninstall them and then install back in the required order. So without further ado, lets delve into the subject matter at hand.
+
+
 First things first, Here is my device information for comparison:
 Alienware m15
 RTX 2080
