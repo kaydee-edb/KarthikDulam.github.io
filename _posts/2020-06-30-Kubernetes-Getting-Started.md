@@ -8,6 +8,7 @@ date: 2020-06-30
 This my repository for learnings related to Kubernetes. This post would include how to create a YAML definition files for kubernetes and also some basic commands which can be used to deploy the YAML and get the status on the pods.
 
 
+
 ###### YAML:
 
 The Yaml file should consist of the following four required components:
